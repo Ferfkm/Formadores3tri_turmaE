@@ -1,6 +1,6 @@
 function tocaSomAplausos(){
-    document.querySelector("#som_tecla_apalusos").play();
-    
+    document.querySelector("#som_tecla_aplausos").play();
 }
-const listadeTeclas = document.querySelectorAll(".tecla");
-listadeTeclas[0].onclick = tocaSomAplausos;
+
+const listaDeTeclas = document.querySelectorAll(".tecla");
+listaDeTeclas[0].onclick = tocaSomAplausos;
