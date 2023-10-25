@@ -8,7 +8,7 @@ let contador = 0;
 
 while (contador < listaDeTeclas.length){
     listaDeTeclas[contador].onclick = function(){
-        tocaSom("tocaSomAplausos");
+        tocaSom("#tocaSomAplausos");
     } 
     contador = contador + 1;
     console.log(contador);
